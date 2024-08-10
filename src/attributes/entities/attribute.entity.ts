@@ -1,4 +1,4 @@
-import { CoreEntity } from 'src/common/entities/core.entity';
+import { CoreEntity } from '../../common/entities/core.entity';
 import { Shop } from 'src/shops/entities/shop.entity';
 import { AttributeValue } from './attribute-value.entity';
 

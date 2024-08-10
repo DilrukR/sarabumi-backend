@@ -1,4 +1,4 @@
-import { CoreEntity } from 'src/common/entities/core.entity';
+import { CoreEntity } from '../../common/entities/core.entity';
 import { User } from 'src/users/entities/user.entity';
 
 export enum AddressType {

@@ -1,5 +1,5 @@
 import { UserAddress } from 'src/addresses/entities/address.entity';
-import { CoreEntity } from 'src/common/entities/core.entity';
+import { CoreEntity } from '../../common/entities/core.entity';
 import { Coupon } from 'src/coupons/entities/coupon.entity';
 import { Product } from 'src/products/entities/product.entity';
 import { Shop } from 'src/shops/entities/shop.entity';

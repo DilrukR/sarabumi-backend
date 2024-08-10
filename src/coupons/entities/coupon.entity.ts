@@ -1,5 +1,5 @@
 import { Attachment } from 'src/common/entities/attachment.entity';
-import { CoreEntity } from 'src/common/entities/core.entity';
+import { CoreEntity } from '../../common/entities/core.entity';
 import { Order } from 'src/orders/entities/order.entity';
 
 export enum CouponType {

@@ -1,7 +1,7 @@
 import { AttributeValue } from 'src/attributes/entities/attribute-value.entity';
 import { Category } from 'src/categories/entities/category.entity';
 import { Attachment } from 'src/common/entities/attachment.entity';
-import { CoreEntity } from 'src/common/entities/core.entity';
+import { CoreEntity } from '../../common/entities/core.entity';
 import { Order } from 'src/orders/entities/order.entity';
 import { Shop } from 'src/shops/entities/shop.entity';
 import { Tag } from 'src/tags/entities/tag.entity';
