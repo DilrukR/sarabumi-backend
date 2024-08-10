@@ -7,7 +7,7 @@ import orderStatusJson from './order-statuses.json';
 import { plainToClass } from 'class-transformer';
 import { Order } from './entities/order.entity';
 import { OrderStatus } from './entities/order-status.entity';
-import { paginate } from 'src/common/pagination/paginate';
+import { paginate } from '../common/pagination/paginate';
 import {
   GetOrderStatusesDto,
   OrderStatusPaginator,

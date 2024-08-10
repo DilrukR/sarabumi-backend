@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { paginate } from 'src/common/pagination/paginate';
+import { paginate } from '../common/pagination/paginate';
 import { CreateTagDto } from './dto/create-tag.dto';
 import { GetTagsDto } from './dto/get-tags.dto';
 import { UpdateTagDto } from './dto/update-tag.dto';

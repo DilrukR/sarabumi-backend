@@ -6,7 +6,7 @@ import { Shop } from './entities/shop.entity';
 import shopsJson from './shops.json';
 import Fuse from 'fuse.js';
 import { GetShopsDto } from './dto/get-shops.dto';
-import { paginate } from 'src/common/pagination/paginate';
+import { paginate } from '../common/pagination/paginate';
 import { GetStaffsDto } from './dto/get-staffs.dto';
 
 const shops = plainToClass(Shop, shopsJson);

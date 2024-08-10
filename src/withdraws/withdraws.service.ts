@@ -3,7 +3,7 @@ import { CreateWithdrawDto } from './dto/create-withdraw.dto';
 import { ApproveWithdrawDto } from './dto/approve-withdraw.dto';
 import { Withdraw } from './entities/withdraw.entity';
 import { GetWithdrawsDto, WithdrawPaginator } from './dto/get-withdraw.dto';
-import { paginate } from 'src/common/pagination/paginate';
+import { paginate } from '../common/pagination/paginate';
 
 @Injectable()
 export class WithdrawsService {

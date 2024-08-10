@@ -4,7 +4,7 @@ import { CreateProductDto } from './dto/create-product.dto';
 import { GetProductsDto, ProductPaginator } from './dto/get-products.dto';
 import { UpdateProductDto } from './dto/update-product.dto';
 import { Product } from './entities/product.entity';
-import { paginate } from 'src/common/pagination/paginate';
+import { paginate } from '../common/pagination/paginate';
 import productsJson from './products.json';
 import Fuse from 'fuse.js';
 import { GetPopularProductsDto } from './dto/get-popular-products.dto';

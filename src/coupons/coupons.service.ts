@@ -6,7 +6,7 @@ import { Coupon } from './entities/coupon.entity';
 import couponsJson from './coupons.json';
 import Fuse from 'fuse.js';
 import { GetCouponsDto } from './dto/get-coupons.dto';
-import { paginate } from 'src/common/pagination/paginate';
+import { paginate } from '../common/pagination/paginate';
 const coupons = plainToClass(Coupon, couponsJson);
 const options = {
   keys: ['name'],

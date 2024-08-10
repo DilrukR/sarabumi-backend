@@ -6,7 +6,7 @@ import { UpdateCategoryDto } from './dto/update-category.dto';
 import { Category } from './entities/category.entity';
 import Fuse from 'fuse.js';
 import categoriesJson from './categories.json';
-import { paginate } from 'src/common/pagination/paginate';
+import { paginate } from '../common/pagination/paginate';
 import { GetCategoriesAlongChildrenDto } from './dto/get-categories-along-children.dto';
 const categories = plainToClass(Category, categoriesJson);
 const options = {
