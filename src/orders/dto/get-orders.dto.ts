@@ -1,4 +1,4 @@
-import { PaginationArgs } from 'src/common/dto/pagination-args.dto';
+import { PaginationArgs } from '../../common/dto/pagination-args.dto';
 import { Paginator } from 'src/common/dto/paginator.dto';
 
 import { Order } from '../entities/order.entity';
